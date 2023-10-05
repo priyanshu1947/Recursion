@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6617cdd-364a-4e54-8acf-de3d5d705aa6" name="Changes" comment="reverse digit of number using recursion.">
+    <list default="true" id="b6617cdd-364a-4e54-8acf-de3d5d705aa6" name="Changes" comment="check palindrom using recursion.">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Recursion1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/countzeros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -44,9 +44,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.palindrome">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.countzeros">
+    <configuration name="countzeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="countzeros" />
       <module name="Recursion1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,11 +82,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.countzeros" />
         <item itemvalue="Application.palindrome" />
         <item itemvalue="Application.reversedigit" />
         <item itemvalue="Application.sumdigit" />
         <item itemvalue="Application.factorial" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696479909148</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="check palindrom using recursion.">
+      <created>1696481082060</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696481082060</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,7 +153,8 @@
     <MESSAGE value="factorial of n number using recursion." />
     <MESSAGE value="sum of digit of number using recursion." />
     <MESSAGE value="reverse digit of number using recursion." />
-    <option name="LAST_COMMIT_MESSAGE" value="reverse digit of number using recursion." />
+    <MESSAGE value="check palindrom using recursion." />
+    <option name="LAST_COMMIT_MESSAGE" value="check palindrom using recursion." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
