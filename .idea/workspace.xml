@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6617cdd-364a-4e54-8acf-de3d5d705aa6" name="Changes" comment="print n to 1 using recursion.">
+    <list default="true" id="b6617cdd-364a-4e54-8acf-de3d5d705aa6" name="Changes" comment="factorial of n number using recursion.">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Recursion1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sumdigit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -44,7 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.factorial">
+  <component name="RunManager" selected="Application.sumdigit">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Recursion1" />
@@ -59,8 +59,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="sumdigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sumdigit" />
+      <module name="Recursion1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.sumdigit" />
         <item itemvalue="Application.factorial" />
         <item itemvalue="Application.Main" />
       </list>
@@ -82,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696474798719</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="factorial of n number using recursion.">
+      <created>1696476955705</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696476955705</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,7 +113,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="print n to 1 using recursion." />
-    <option name="LAST_COMMIT_MESSAGE" value="print n to 1 using recursion." />
+    <MESSAGE value="factorial of n number using recursion." />
+    <option name="LAST_COMMIT_MESSAGE" value="factorial of n number using recursion." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
