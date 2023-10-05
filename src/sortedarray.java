@@ -2,8 +2,7 @@ public class sortedarray
 {
     public static void main(String[] args) {
 int [] arr = {1,2,3,5,4};
-boolean result = sorted(arr,0);
-        System.out.println(result);
+        System.out.println(sorted(arr,0));
     }
     static boolean sorted(int [] arr, int index)
     {
