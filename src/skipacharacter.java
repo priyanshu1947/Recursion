@@ -1,7 +1,7 @@
 public class skipacharacter
 {
     public static void main(String[] args) {
-        System.out.println((skip("baccdab")));;
+        System.out.println((skipapple("bapplefg")));;
 
     }
     static void skip(String p, String up)
@@ -34,6 +34,22 @@ public class skipacharacter
         }
         else {
             return ch + skip(up.substring(1));
+        }
+    }
+
+    static String skipapple(String up)
+    {
+        if(up.isEmpty())
+        {
+            return "";
+        }
+
+        if(up.startsWith("apple"))
+        {
+            return skipapple(up.substring(5));
+        }
+        else {
+            return up.charAt(0) + skipapple(up.substring(1));
         }
     }
 }
