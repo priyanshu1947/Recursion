@@ -1,24 +1,29 @@
 class Solution {
     public double myPow(double x, long n) {
-        if(n==0)
-        {
-            return 1.0;
-        }
-        if(n<0)
-        {
-            x=1/x;
-            n = -n;
-        }
-
         double ans = 1.0;
-        while(n>0)
+        long N = n;
+        if(N<0)
         {
-            if((n&1)!=0)
+            x = 1.0 / x;
+            N = -1*N;
+        }
+        while(N>0)
+        {
+            if(N%2==1)
             {
                 ans = ans*x;
+                N= N-1;
             }
-            x=x*x;
-            n=n>>1;
+            else
+            {
+                x=x*x;
+                N=N/2;
+            }
+        }
+        if(N<0)
+        {
+            ans = (double)(1.0)/(double)(ans);
+            
         }
         return ans;
     }
