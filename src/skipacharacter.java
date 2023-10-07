@@ -1,7 +1,7 @@
 public class skipacharacter
 {
     public static void main(String[] args) {
-        System.out.println((skipapple("bapplefg")));;
+        System.out.println((skipAppapple("bapplefg")));;
 
     }
     static void skip(String p, String up)
@@ -50,6 +50,22 @@ public class skipacharacter
         }
         else {
             return up.charAt(0) + skipapple(up.substring(1));
+        }
+    }
+
+    static String skipAppapple(String up)
+    {
+        if(up.isEmpty())
+        {
+            return "";
+        }
+
+        if(up.startsWith("app")&& !up.startsWith("apple"))
+        {
+            return skipAppapple(up.substring(3));
+        }
+        else {
+            return up.charAt(0) + skipAppapple(up.substring(1));
         }
     }
 }
